@@ -3,7 +3,7 @@
 
     //verificar se existe o ID
     if (empty($id)) {
-        echo "<script>alert('Registro inválido');history.back();</script>";
+        mensagem("Erro", "Registro inválido", "error");
     } else {
 
         //verificar se já existe um filme cadastrado com a categoria
