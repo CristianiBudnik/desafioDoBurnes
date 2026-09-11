@@ -111,7 +111,7 @@
                     <label for="sinopse">Sinopse do Filme:</label>
                     <textarea name="sinopse" id="sinopse"
                     class="form-control text" required
-                    data-parsley-required-message="Preencha este campo"><?= $sinopse ?></textarea>
+                    data-parsley-required-message="Preencha este campo"><?=$sinopse ?></textarea>
                 </div>
             </div>
 
